@@ -5,7 +5,7 @@ import Todos from './components/Todos/Todos';
 import AddTodo from './/components/AddTodo/AddTodo';
 import About from './components/Pages/About';
 import { v4 as uuidv4 } from 'uuid';
-
+import axios from 'axios';
 import './App.css';
 
 class App extends Component {
@@ -33,6 +33,12 @@ class App extends Component {
       // },
     ],
   };
+
+  componentDidMount() {
+    axios
+      .get('https://jsonplaceholder.typicode.com/todos')
+      .then((res) => console.log(res.data));
+  }
 
   // Toggle Complete
   markComplete = (id) => {
