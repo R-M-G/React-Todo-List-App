@@ -11,26 +11,26 @@ import './App.css';
 class App extends Component {
   state = {
     todos: [
-      {
-        id: 1,
-        title: 'Buy milk',
-        completed: false,
-      },
-      {
-        id: 2,
-        title: 'Get gas',
-        completed: false,
-      },
-      {
-        id: 3,
-        title: 'Mow lawn',
-        completed: false,
-      },
-      {
-        id: 4,
-        title: 'Clean out garage',
-        completed: false,
-      },
+      // {
+      //   id: 1,
+      //   title: 'Buy milk',
+      //   completed: false,
+      // },
+      // {
+      //   id: 2,
+      //   title: 'Get gas',
+      //   completed: false,
+      // },
+      // {
+      //   id: 3,
+      //   title: 'Mow lawn',
+      //   completed: false,
+      // },
+      // {
+      //   id: 4,
+      //   title: 'Clean out garage',
+      //   completed: false,
+      // },
     ],
   };
 
@@ -72,7 +72,8 @@ class App extends Component {
           <div className="container">
             <Header />
             <Route
-              exact path="/"
+              exact
+              path="/"
               render={(props) => (
                 <React.Fragment>
                   <AddTodo addTodo={this.addTodo} />

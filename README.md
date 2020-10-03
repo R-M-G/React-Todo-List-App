@@ -29,6 +29,8 @@ Simple Todo List App
 - React
 - Create React APP
 - uuid v4
+- {JSON} Placeholder
+- Axios
 
 ## License
 
