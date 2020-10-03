@@ -9,7 +9,7 @@ class App extends Component {
       {
         id: 1,
         title: 'Buy milk',
-        completed: true,
+        completed: false,
       },
       {
         id: 2,
@@ -19,19 +19,26 @@ class App extends Component {
       {
         id: 3,
         title: 'Mow lawn',
-        completed: true,
+        completed: false,
       },
       {
         id: 4,
         title: 'Clean out garage',
-        completed: true,
+        completed: false,
       },
     ],
   };
 
   markComplete = (id) => {
-    console.log(id);
-  };
+    this.setState( {todos: this.state.todos.map(todo => {
+      if(todo.id === id) {
+  todo.completed = !todo.completed
+}
+return todo;
+    }) });
+  }
+
+
 
   render() {
     return (
