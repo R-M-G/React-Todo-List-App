@@ -28,6 +28,7 @@ Simple Todo List App
 - CSS3
 - React
 - Create React APP
+- uuid v4
 
 ## License
 
