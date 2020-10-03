@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    line-height: 1.5;
+}
+
+.container {
+    padding: 0 1rem;
+}
+
+.btn:hover {
+    background: #ADD8E6;
+}
