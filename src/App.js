@@ -1,15 +1,16 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
+import Todos from './components/Todos/Todos';
 
 import './App.css';
 
-
 class App extends Component {
-  render(){
+  render() {
     return (
-      <div><h1>ToDo App</h1></div>
-    )
+      <div className="App">
+        <Todos />
+      </div>
+    );
   }
 }
-
 
 export default App;
