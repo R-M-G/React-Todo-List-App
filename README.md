@@ -8,7 +8,8 @@ Simple Todo List App
 
 ## Screen Shot
 
-<img src="./public/images/React_JS_Simple.png">
+<img src="./public/images/React_Todo_ss_1.png">
+<img src="./public/images/React_Todo_ss_2.png">
 
 ### Prerequisites
 
@@ -16,9 +17,14 @@ Simple Todo List App
 
 ## Install
 
+1. Clone, CD into folder and start npm.
+
 ## Use
 
-1. Clone, CD into folder and start npm.
+1. Has 10 pre-populated lorem ipsum todos.
+2. Enter new todos in the form and click submit.
+3. Check checkbox to complete task.
+4. Click the red "x" button to delete todo.
 
 ## Built With
 
@@ -29,7 +35,7 @@ Simple Todo List App
 - React
 - Create React APP
 - uuid v4
-- {JSON} Placeholder
+- {JSON} Placeholder Typicode
 - Axios
 
 ## License
